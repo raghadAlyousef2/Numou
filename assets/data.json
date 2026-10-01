@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Heater d",
+    "date": "2024-09-16",
+    "time": "08:00 AM",
+    "duration": "2 hours"
+  },
+  {
+    "name": "Heater B",
+    "date": "2024-09-16",
+    "time": "09:00 AM",
+    "duration": "3 hours"
+  },
+  {
+    "name": "Heater B",
+    "date": "2024-09-16",
+    "time": "09:00 AM",
+    "duration": "3 hours"
+  },
+  {
+    "name": "Heater d",
+    "date": "2024-09-16",
+    "time": "08:00 AM",
+    "duration": "2 hours"
+  },
+  {
+    "name": "Heater B",
+    "date": "2024-09-16",
+    "time": "09:00 AM",
+    "duration": "3 hours"
+  },
+  {
+    "name": "Heater B",
+    "date": "2024-09-16",
+    "time": "09:00 AM",
+    "duration": "3 hours"
+  }
+]
