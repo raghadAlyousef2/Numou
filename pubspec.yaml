@@ -1,0 +1,267 @@
+name: numou
+description: "arabic learning app"
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.15.1
+  firebase_auth: ^5.6.2
+  firebase_database: ^11.3.9
+  get: ^4.7.2
+  google_fonts: ^6.2.1
+  google_sign_in: ^7.1.0
+  percent_indicator: ^4.2.5
+  image_picker: ^1.1.2
+  firebase_storage: ^12.4.9
+  cached_network_image: ^3.4.1
+  syncfusion_flutter_charts: ^30.1.38
+  firebase_messaging: ^15.2.9
+  flutter_local_notifications: ^19.3.0
+  flutter_timezone: ^4.1.1
+  workmanager: ^0.8.0
+  http: any
+  timezone: any
+  flutter_svg: ^2.2.0
+  flutter_tts: ^4.2.3
+  lottie: ^3.3.1
+  audioplayers: ^6.5.0
+  permission_handler: ^12.0.1
+  vosk_flutter_2: ^1.0.5
+  tracing_game: ^0.0.4+1
+  google_speech: ^4.4.0
+  record: ^6.1.1
+  intl: ^0.20.2
+  url_launcher: ^6.3.0
+  flutter_native_splash: ^2.4.7
+  google_mlkit_translation: ^0.13.0
+dependency_overrides:
+  permission_handler: ^12.0.1
+  archive: ^4.0.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: any
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/logo/logo.png"
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^6.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  assets:
+    - assets/
+    - assets/logo/logo.png
+    - assets/map_bg1.png
+    - assets/cross.png
+    - assets/map_bg2.png
+    - assets/map_bg4.png
+    - assets/map_bg5.jpeg
+    - assets/map_bg6.JPG
+    - assets/pass.png
+    - assets/images/
+    - assets/characters/
+    - assets/sounds/
+    - assets/avatars/
+    - assets/data.json
+#    - assets/levels/A/1.png
+#    - assets/levels/A/2.png
+#    - assets/levels/A/3.png
+#    - assets/levels/A/4.png
+#    - assets/levels/B/1.png
+#    - assets/levels/B/2.png
+#    - assets/levels/B/3.png
+#    - assets/levels/B/4.png
+#    - assets/levels/C/1.png
+#    - assets/levels/C/2.png
+#    - assets/levels/C/3.png
+#    - assets/levels/C/4.png
+#    - assets/levels/D/1.png
+#    - assets/levels/D/2.png
+#    - assets/levels/D/3.png
+#    - assets/levels/D/4.png
+#    - assets/levels/E/1.png
+#    - assets/levels/E/2.png
+#    - assets/levels/E/3.png
+#    - assets/levels/E/4.png
+#    - assets/levels/F/1.png
+#    - assets/levels/F/2.png
+#    - assets/levels/F/3.png
+#    - assets/levels/F/4.png
+#    - assets/levels/G/1.png
+#    - assets/levels/G/2.png
+#    - assets/levels/G/3.png
+#    - assets/levels/G/4.png
+#    - assets/levels/H/1.png
+#    - assets/levels/H/2.png
+#    - assets/levels/H/3.png
+#    - assets/levels/H/4.png
+#    - assets/levels/I/1.png
+#    - assets/levels/I/2.png
+#    - assets/levels/I/3.png
+#    - assets/levels/I/4.png
+#    - assets/levels/J/1.png
+#    - assets/levels/J/2.png
+#    - assets/levels/J/3.png
+#    - assets/levels/J/4.png
+#    - assets/levels/K/1.png
+#    - assets/levels/K/2.png
+#    - assets/levels/K/3.png
+#    - assets/levels/K/4.png
+#    - assets/levels/L/1.png
+#    - assets/levels/L/2.png
+#    - assets/levels/L/3.png
+#    - assets/levels/L/4.png
+#    - assets/levels/M/1.png
+#    - assets/levels/M/2.png
+#    - assets/levels/M/3.png
+#    - assets/levels/M/4.png
+#    - assets/levels/N/1.png
+#    - assets/levels/N/2.png
+#    - assets/levels/N/3.png
+#    - assets/levels/N/4.png
+#    - assets/levels/O/1.png
+#    - assets/levels/O/2.png
+#    - assets/levels/O/3.png
+#    - assets/levels/O/4.png
+#    - assets/levels/P/1.png
+#    - assets/levels/P/2.png
+#    - assets/levels/P/3.png
+#    - assets/levels/P/4.png
+#    - assets/levels/Q/1.png
+#    - assets/levels/Q/2.png
+#    - assets/levels/Q/3.png
+#    - assets/levels/Q/4.png
+#    - assets/levels/R/1.png
+#    - assets/levels/R/2.png
+#    - assets/levels/R/3.png
+#    - assets/levels/R/4.png
+#    - assets/levels/S/1.png
+#    - assets/levels/S/2.png
+#    - assets/levels/S/3.png
+#    - assets/levels/S/4.png
+#    - assets/levels/T/1.png
+#    - assets/levels/T/2.png
+#    - assets/levels/T/3.png
+#    - assets/levels/T/4.png
+#    - assets/levels/U/1.png
+#    - assets/levels/U/2.png
+#    - assets/levels/U/3.png
+#    - assets/levels/U/4.png
+#    - assets/levels/V/1.png
+#    - assets/levels/V/2.png
+#    - assets/levels/V/3.png
+#    - assets/levels/V/4.png
+#    - assets/levels/W/1.png
+#    - assets/levels/W/2.png
+#    - assets/levels/W/3.png
+#    - assets/levels/W/4.png
+#    - assets/levels/X/1.png
+#    - assets/levels/X/2.png
+#    - assets/levels/X/3.png
+#    - assets/levels/X/4.png
+#    - assets/levels/Y/1.png
+#    - assets/levels/Y/2.png
+#    - assets/levels/Y/3.png
+#    - assets/levels/Y/4.png
+#    - assets/levels/Z/1.png
+#    - assets/levels/Z/2.png
+#    - assets/levels/Z/3.png
+#    - assets/levels/Z/4.png
+#    - assets/levels/ZZ/1.png
+#    - assets/levels/ZZ/2.png
+#    - assets/levels/ZZ/3.png
+#    - assets/levels/ZZ/4.png
+#    - assets/levels/ZZZ/1.png
+#    - assets/levels/ZZZ/2.png
+#    - assets/levels/ZZZ/3.png
+#    - assets/levels/ZZZ/4.png
+
+    #- assets/models/vosk-model-ar-mgb2-0.4.zip
+    - assets/keys/numou-a982e-1fbcf675697b.json
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
+flutter_native_splash:
+
+  color: "#FFFFFF"  ##====================================[REQUIRED]==========
+  android: true
+  image: assets/logo/splash.png
+  #fullscreen: true                # default false
+  android_12:
+    color: "#FFFFFF"
+    image: assets/logo/splash.png
+    icon_background_color: "#FFFFFF"

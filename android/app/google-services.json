@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1032237191380",
+    "firebase_url": "https://numou-a982e-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "numou-a982e",
+    "storage_bucket": "numou-a982e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032237191380:android:47707522277f53b8d7eb41",
+        "android_client_info": {
+          "package_name": "com.example.numou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032237191380-4h5adp39ql4m7nc766cvnkrooeo69s9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWiGDKEs1LpCHH3PDd6VYgnKsjYoqTolA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032237191380-4h5adp39ql4m7nc766cvnkrooeo69s9b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1032237191380-s11i8hv5s8feb02mci6tl8lb8jc5qhks.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.numou"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
