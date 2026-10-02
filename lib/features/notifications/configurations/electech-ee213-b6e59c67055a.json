@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "electech-ee213",
+  "private_key_id": "b6e59c67055a161d7943ed4fe2c3a7ab612b6ce9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC9WQWY8Tl6iNIX\n7wDgSK0AoctI9dXj66rWWai2oYnT6yyq5N8oHlop2qH2XWeignG8e6Q57YaGSBkf\nnQpgQrYuIL834er6FLSv78CcnPz0tzQZ1OvXKw+/sxvSYQeoywPhngOUOJXzqH53\nDR3INip7B6VeiRdRQtnDn8Lk3TqAGsWkfU2mE9ypwqh37MFBsLsHtTM0SPO9krJ0\nH5qCA+sQYRDiJ1JYGSmRDkF/UYr8vH5/4qUi7GgtwrPp4VK4bnSYfBOqO08734DV\nX79/gMAU75QQUeqlNDx7mrvy7Nufyn76gldL4SILRw34FCA8vx41cI+yot8Ocumg\nNjnyc2AxAgMBAAECggEAP10ood9r0EU0JX0+ak/30SPTvxVBoDXP5E55xrA1Sv1C\n4+eWhDrwClyXYbYtRbVocV5g/V+u6oX7HlizzbXVeIdN5loMg+bk9pGBgAeLISuj\n3FckG0vWR90c3ODKquJRaLGz2ei7yZ/jvlxd0I/L1IMhBItVCcUY0b3Hf0ZHWvHH\nO0rvFmYK246nieaVMJfdhAlAM6Ef4XjRS+3qyePzMWDy89d+SzUtvD1UXjxBNC7g\nQfZzcdmj6YD5NceInwazblaSPEHGAaBtypBe6d7s6WCmhOxdP2qY2ilWdNMushdO\nNxwugbnIkGH/r06aTab2WwsJT8/YfENCVPw8vBc+dwKBgQDgX5mG46fo7HCZod8t\nTvYN8w44q25MW6Hgw++jE3/5LINJ66UJ/GXpL3yueI/z1wAeLhOM5z9fdGjLbLq7\nS5c7DtqeILwhvTHgQnIWnrexUYr8aAUAeKpNeg5En3n8KT7VmQDxLZ8OdJzkKjV9\n6nLnGVijJrUQQVIBfUQjjp2IUwKBgQDYCYm2EEhw1DXoeSAMhnJZyQ6DRqMKAo+J\nHbo3LbknaVYT/lqGGUDt/YJqgnlL1Hmw1X3/5dhymYJndK9okflDS6kHLHQaY0V+\n9+I7fAXJl9RlEqheUGwqQnDe1nAwHMnKuZbDsYv6mGc4Muq8xNPFNReBZ5KMD7H0\n4tac+PRU6wKBgEm4f3wnfrr0PMbtvaNoZ0YMDyclhHcIQHbWSf1d4dVf/78g8rgG\nOwHT/XZh3IJ0qPBBmWDZdiQJ3ojAL9ZsLsNTzRbZkJbRT/rsOgoemiJjtXPbRZFz\nFBmiud9oOq9UafXKcNnNcI5SWF5LVAoMJzaxSENK64DsxWIB44p/SFlLAoGANu51\n7a1GPio3at0hoQ2uldXhss+LNUhhZuQALXea1MKb+Il8SwywzdLgDmUOopFsP+KJ\nH0A6QSl3Vwb8cwJq9wmN+Rz8iJklWpt9EtL+RbwtbWXJGfIpDrXGLWMpM5KeXMXD\n6A6FITsPQ+LufQEvN73ANE85nBOBlFr5ZwCGX/ECgYA2rcP1+M5i149l+0sAR+Bt\n3JjyqORKp4o8xEBE3iJ1u2GLoTgfFnTnwabAFXSFzNc02GNM1FIwvobeAx+BOLW3\nMlEUsx+VRO1Vo08vE6HDyBNARzRDOyzKg668YQWpZhrvoz2hT/ci17URk3tbxqbs\nDlp9oyzgXsQ011vWbKc41w==\n-----END PRIVATE KEY-----\n",
+  "client_email": "electech-notification-service@electech-ee213.iam.gserviceaccount.com",
+  "client_id": "112580852272965027064",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/electech-notification-service%40electech-ee213.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
